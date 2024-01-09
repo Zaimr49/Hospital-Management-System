@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(34, 34, 40, 1);
+}
+.login-page {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+::placeholder{
+    color: white;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-header{
+    font-weight: bold; 
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    background-color: rgba(55, 55, 59, 1);
+    border-radius: 5px;
+    width:50%;
+    height:50%;
+    margin-left: -20px;
+    padding: 0px 100px 20px 100px;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.user-inp {
+    border-radius: 15px;
+    background-color: rgba(112, 112, 115, 1);
+    color:white;
+    padding: 10px 10px 10px 10px;
+    margin-top:30px;
+    width: 250px;
+    border-style: solid;
+    margin-left: -60px;
+    
+
+    /* align-items: center; */
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.pass-inp {
+    border-radius: 15px;
+    background-color: rgba(112, 112, 115, 1);
+    color:white;
+    padding: 10px 10px 10px 10px;
+    margin-top:10px;
+    margin-left: -60px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: lighter;
+    border-style: solid;
+
+}
+
+.sub-button {
+    margin-top: 20px;
+    border-radius:15px;
+    
+    background-color: rgba(154, 198, 30, 1);
+    color: white;
+    padding: 5px 5px 5px;
+    margin-bottom:20px ;
+    width: 100px;
+    border-style: solid;
+    border-color: rgba(154, 198, 30, 1);
+
+}
+
+.question {
+    margin-top: 10px;
+    color: white;
+}
+
+a{
+    color: rgba(154, 198, 30, 1);
+}
+
+.lib-name{
+    color: rgba(154, 198, 30, 1);
+    font-size: 30px;
+    font-weight: lighter;
+
+
+}
+
+.sub-button:hover{
+    background-color: rgba(153, 198, 30, 0.856);
+    /* color: rgba(154, 198, 30, 1) ; */
+    cursor: pointer;
+}

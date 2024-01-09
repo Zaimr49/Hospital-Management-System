@@ -1,0 +1,43 @@
+.innercontainer {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-color: black !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px grey !important;
+}
+.outercontainer {
+  padding-top: 2%;
+  padding-left: 3% !important;
+  padding-right: 5% !important;
+  background-color: #1e1e1e;
+  background-size: fill;
+  height: 100vh;
+  width: 100vw;
+}
+.cardrow {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: left !important;
+}
+.leftcont {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-color: black !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px grey !important;
+}
+.rightcont {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-color: black !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px grey !important;
+}
